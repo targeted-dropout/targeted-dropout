@@ -5,8 +5,8 @@
 - Tensorflow 1.8
 
 ## Quick Start
-1. Train a model: `python -m TD.train --hparams=resnet_default`
-2. Prune that model: `python -m TD.scripts.prune.eval --hparams=resnet_default --prune_percent 0.0,0.25,0.5,0.75,0.95`
+1. Train a model: `python -m targeted-dropout.train --hparams=resnet_default`
+2. Prune that model: `python -m targeted-dropout.scripts.prune.eval --hparams=resnet_default --prune_percent 0.0,0.25,0.5,0.75,0.95`
 
 ### Flags
 - `--env`: one of `local`, `gcp` (GPU instances), or `tpu` (TPU instances). Feel free to add more if necessary.
