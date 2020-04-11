@@ -1,10 +1,5 @@
 # Targeted Dropout
 
-## Table of Contents
-- [Requirements](#requirements)
-- [Quick Start](#quick-start)
-- [Experiments](#experiments)
-
 ## Requirements
 - Python 3
 - Tensorflow 1.8
